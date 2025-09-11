@@ -1,0 +1,101 @@
+/* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 50;
+      background: #734f96;
+      color: black;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: black;
+      padding: 10px 0;
+      text-align: center;
+      border-bottom: 10px solid #444;
+      top: 10;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .nav-line {
+      display: grid;
+      grid-template-columns: repeat(3, auto); /* 3 links per row */
+      justify-content: center;
+      gap: 5px 20px; /* row gap, column gap */
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color:purple ;
+    }
+
+    /* Spacer so content isn’t hidden behind navbar */
+    .spacer {
+      height: 10px; /* taller because navbar has 2 rows */
+    }
+
+    /* Section Styles */
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #e6e6fa ;
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    /* Profile Section */
+    .profile {
+      text-align: center;
+    }
+
+    .profile img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover ;
+      margin-bottom: 10px;
+      border: 8px solid #333;
+    }
+
+    /* Project Images */
+    .project {
+      width: 125px;
+      height:125px;
+      margin: 5px;
+      border: 2px solid #333;
+      border-radius: 5px;
+    }
+    .accomplishment-img {
+      text-align: center;
+    }
+
+    .accomplishment-img img {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      margin: 10px auto;
+   }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      margin-top: 30px;
+    }
+Write to Kristel Marie Benitez Asignacion
